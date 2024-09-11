@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BN-ExperienceFX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon-bnfx.ico">
+    <style>
+        @media only screen and (max-width: 550px) {
+    #features .icon {
+        display: none;
+    }
+}
+
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="img/BN-ExperienceFX Pro Logo-2 (1).png" alt="logo"/>
+        </div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="page-wrapper">
+
+        <section id="hero">
+            <div class="hero-back-img">
+                <img src="img/back-img1.png" alt="image" width="100%">
+            </div>
+            <div class="hero-text">
+                <h2>FOREX TRADING SOLUTIONS</h2><br>
+                <h3>A step closer to your Financial Independence</h3><br>
+                <P>
+                    Join us on this journey. Full-Service Education firm with a team of 
+                    experienced mentors and traders.<br> Start today with our Packages designed
+                    to give you the ultimate guide and experience you need to be a TRADER.<br><br><br> 
+                </P>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
+                    <input id="submit" type="submit" value="Join Us" class="btn" /><br><br><br><br>
+                </form>
+            </div>
+        </section>
+
+        <div class="container">
+            
+            <section id="features">
+
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-fire"></i>
+                    </div>
+
+                    <div class="desc">
+                        <h2>Premium Materials (VIP)</h2><br>
+                        <p>
+                            Unlock exclusive insights and cutting-edge strategies designed to elevate your trading performance.<br> 
+                            Our VIP section offers in-depth analysis, real-time market updates, and expert guidance tailored to your needs.
+                            Gain access to proprietary tools and resources that help you stay ahead in the ever-changing financial markets.
+                            Whether you're a seasoned trader or just starting, our premium materials provide the edge you need to succeed.
+                        </p><br>
+                    </div>
+                </div>
+
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-truck"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Reliable Service Delivery</h2><br>
+                        <p>
+                            Expect timely, accurate trading signals and personalized mentorship designed to enhance your trading skills.<br> 
+                            Our service provides clear, actionable insights and dedicated support to help you navigate the financial markets confidently and effectively.
+                            24/7 Access to Training Course with 24/7 Support.
+                        </p><br>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Quality Assurance</h2><br>
+                        <p>
+                            Our Quality Assurance (QA) process is designed to ensure the highest standards of accuracy, reliability, and compliance in financial markets trading. 
+                            We rigorously test and validate trading strategies, systems, and data to mitigate risks and enhance performance. With a focus on continuous improvement, 
+                            our QA ensures that all trading activities meet stringent regulatory requirements and deliver consistent, trustworthy results for our clients.
+                        </p><br>
+                    </div>
+                </div>
+            </section>
+
+            <section id="how-it-works">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/gbrOnkTYZ00?si=VlgKbs2GIS68S91H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+    
+            <section id="pricing">
+                <div class="product" id="mentorship">
+                    <div class="level">Mentorship</div>
+                    <h2>$100/R1880</h2>
+                    <ol>
+                        <li>-Introduction to Forex</li>
+                        <li>-Technical Analysis</li> 
+                        <li>-Fundamental Analysis</li> 
+                        <li>-Supply and Demand</li>
+                        <li>-Trading Strategy</li> 
+                        <li>-Trading Psychology</li> 
+                        <li>-Risk Management</li>
+                        <li>-Practical Zoom Sessions</li>
+                        <li>-6 Months Mentorship</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+    
+                <div class="product" id="fx-&-indice-signals">
+                    <div class="level">FX & INDICE SIGNALS</div>
+                    <h2>$25/R470</h2>
+                    <ol>
+                        <li>•GET 1-4 Daily Signals</li>
+                        <li>•Currency Pairs & GOLD</li> 
+                        <li>•US30, NASDAQ, US500</li>
+                        <li>•GER40, UK100</li>
+                        <li>•Stop-Loss & Take-Profit</li>
+                        <li>•Analysis/Setup</li>
+                        <li>•85-90% Win Rate</li>  
+                        <li>•Lifetime Signals</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+    
+                <div class="product" id="synthetic-indexes">
+                    <div class="level">SYNTHETIC INDEXES</div>
+                    <h2>$50/R940</h2>
+                    <ol>
+                        <li>•GET 1-5 Daily Signals</li>
+                        <li>•Volatility, Jump, Step</li>
+                        <li>•Crash & Boom</li> 
+                        <li>•Stop-Loss & Take-Profit</li>
+                        <li>•Analysis/Setup</li>
+                        <li>•GET WEEKEND SIGNALS</li>
+                        <li>•90%-95% Win Rate</li> 
+                        <li>•Lifetime Signals</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+            </section>
+    
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span>Copyright 2024, BN-ExperienceFX</span>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
